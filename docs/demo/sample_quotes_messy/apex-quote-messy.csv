@@ -1,0 +1,11 @@
+APEX INDUSTRIAL SUPPLIES - QUOTATION
+quote_ref,APX-9042,date,21/08/2026
+buyer,SupplyX Procurement
+currency,INR,validity,10 days
+delivery,17 working days,payment,Net 30
+
+sku,description,qty,unit_price,discount,tax,line_total
+6205-2RS,6205-2RS Industrial Bearing sealed ABEC-1,500,178,,18%,
+
+NOTE,Prices are ex-works. Freight and insurance extra.
+NOTE,Warranty: 1 year manufacturer warranty.

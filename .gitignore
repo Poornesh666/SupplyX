@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets -- defense in depth on top of backend/.gitignore and
+# frontend/.gitignore; never commit a real .env from anywhere in the tree.
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Python (defense in depth; backend/.gitignore also covers this)
+**/__pycache__/
+*.pyc
+**/.venv/
+**/.pytest_cache/
+
+# Node (defense in depth; frontend/.gitignore also covers this)
+**/node_modules/
+**/.next/
