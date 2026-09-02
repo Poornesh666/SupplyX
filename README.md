@@ -49,8 +49,3 @@ npm run dev
 Runs on `http://localhost:3000` and calls the backend at
 `NEXT_PUBLIC_API_URL` (defaults to `http://localhost:8000/api/v1`).
 
-## Status
-
-Foundation stage: project scaffolding, health check, and frontend↔backend
-connectivity are verified. See [docs/architecture](docs/architecture) for
-decisions and next steps.
